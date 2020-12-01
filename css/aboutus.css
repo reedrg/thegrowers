@@ -16,7 +16,6 @@ body{
 .navlogo{
     height: 55px;
     width: 50px;
-    
 }
 
 .row{
@@ -26,8 +25,7 @@ body{
     
 .col-sm-8{
     background-color: #0D2B42;
-    color: white;
-    
+    color: white;   
 }   
 
 .aboutusp{
@@ -87,7 +85,6 @@ body{
     margin-left: 150px;
     margin-right: 150px;
     margin-top: 30px;
-    margin-bottom: ;
     text-align: center;
     font-size: 28px;
 }
@@ -105,7 +102,6 @@ body{
 .email{
    margin-left: 150px;
     margin-right: 150px;
-    margin-top: ;
     margin-bottom: 50px;
     text-align: center;
     font-size: 28px;
