@@ -13,6 +13,12 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+.navlogo{
+    height: 55px;
+    width: 50px;
+    
+}
+
 .row{
     padding-right: 0px;
     margin-right: 0px;
