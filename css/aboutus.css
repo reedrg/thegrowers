@@ -1,0 +1,110 @@
+/*
+		Author:				Richmond Reed
+		Date:				12/4/2020
+		Assignment:			Final Project
+		Purpose:			To create a website for the ficticous 
+                            company 'Let Grow', as part of the final 
+                            assessment for the class. 
+	*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.row{
+    padding-right: 0px;
+    margin-right: 0px;
+}
+    
+.col-sm-8{
+    background-color: #0D2B42;
+    color: white;
+    
+}   
+
+.aboutusp{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.aboutush{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 60px;
+}
+
+#eapgif{
+    background-color: #BACEC2;
+}
+
+.gif{    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+#contact{
+    background-color: #D98070;
+}
+
+.lgcard{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+    margin-top: 55px;
+    margin-bottom: 25px;
+}
+
+#lgcard{
+    background-color: #E8C2AB     
+}
+
+.contactush{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 60px;
+}
+
+.contactusp{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 30px;
+    margin-bottom: ;
+    text-align: center;
+    font-size: 28px;
+}
+
+.fa-instagram{
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: #0D2B42;
+    margin-top: 15px;
+}
+
+.email{
+   margin-left: 150px;
+    margin-right: 150px;
+    margin-top: ;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 28px;
+}
+
+#emailbtn{
+    margin-top: 10px;
+}
