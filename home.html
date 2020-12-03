@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="icon" type="image/png" href="images/abv%20fav.jpg" title="Let Grow Logo">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="css/home.css">
+
+</head>
+<body>
+  
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
+  <a class="navbar-brand" href="home.html"><img class="navlogo" src="images/logotp.png" title="Let Grow Logo"></a>
+          
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExample05">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="home.html" title="Home">Home<span class="sr-only">(current)</span></a>
+      </li>
+        <li class="nav-item active">
+        <a class="nav-link" href="plants.html" title="Plants">Plants<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" title="Survey">Survey</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" title="Newsletter">Newsletter</a>
+      </li>
+     <li class="nav-item">
+        <a class="nav-link" href="#" title="Frequently Asked Questions">FAQ</a>
+      </li>
+        <li class="nav-item active">
+        <a class="nav-link" href="aboutus.html" title="About Us/Contact US">About Us<span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-md-0">
+      <input class="form-control" type="text" placeholder="Search">
+    </form>
+  </div>
+</nav>
+    
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/carousel1.jpg" alt="image1" width="700" height="300">
+    </div>
+    <div class="carousel-item">
+      <img src="images/carousel2.png" alt="image2" width="700" height="300">
+    </div>
+    <div class="carousel-item">
+      <img src="images/carousel3.jpg" alt="image3" width="700" height="300">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>    
+    
+<br>
+    
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>About Us</h3>
+      <p>To learn more about who we are and what we are about click below.</p>
+      <button class="button button1" onclick="location.href='aboutus.html'">More...</button>
+        <p></p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Survey</h3>
+      <p>Take a quick survey to find out what plants best suit your location!</p>
+      <button class="button button1" onclick="location.href='survey.html'">More...</button>
+        <p></p>
+    </div>
+    <div class="col-sm-4">
+      <h3>News</h3>        
+      <p>See news about the site and any other interesting things about plants!</p>
+      <button class="button button1" onclick="location.href='newsletter.html'">More...</button>
+        <p></p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
