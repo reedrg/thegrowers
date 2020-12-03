@@ -1,0 +1,62 @@
+/*
+		Author:				Keely Melton
+		Date:				12/4/2020
+		Assignment:			Final Project
+		Purpose:			To create a website for the ficticous 
+                            company 'Let Grow', as part of the final 
+                            assessment for the class. 
+	*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navlogo{
+    height: 55px;
+    width: 50px;
+}
+
+.row{
+    padding-right: 0px;
+    margin-right: 0px;
+}
+    
+.col-sm-6{
+    background-color: #0D2B42;
+    color: white;   
+}   
+
+.subhead{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.plantheader{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 60px;
+}
+
+#mintgreen{
+    background-color:#BACEC2;
+}
+
+#contact{
+    background-color: #D98070;
+}
+
+.displayimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
