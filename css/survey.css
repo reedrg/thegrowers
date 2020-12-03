@@ -1,0 +1,48 @@
+/*
+		Author:				Jonathan Schallon
+		Date:				12/4/2020
+		Assignment:			Final Project
+		Purpose:			To create a website for the ficticous 
+                            company 'Let Grow', as part of the final 
+                            assessment for the class. 
+	*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0D2B42;
+}
+
+.navlogo{
+    height: 55px;
+    width: 50px;
+}
+.survey{
+    margin-top: 10px;
+}
+
+.form-group{
+    color: white;
+}
+
+.form-check{
+    color: white;
+}
+
+.button{
+    color: white;
+    background-color: #D98070;
+    border-color: #BACEC2;
+    border-style: none;
+    background-size: auto;
+    width: 100%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
