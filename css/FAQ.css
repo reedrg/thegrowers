@@ -1,0 +1,99 @@
+
+/*
+		Author:				Kelsey Hunley
+		Date:				12/4/2020
+		Assignment:			Final Project
+		Purpose:			To create a website for the ficticous 
+                            company 'Let Grow', as part of the final 
+                            assessment for the class. 
+	*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navlogo{
+    height: 55px;
+    width: 50px;
+}
+
+.row{
+    padding-right: 0px;
+    margin-right: 0px;
+}
+    
+.col-sm-12{
+    background-color: #0D2B42;
+    color: white;   
+}   
+
+.FAQp{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.FAQh{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 60px;
+}
+
+.FAQh2{
+    text-align: left;
+    margin-top: 25px;
+    font-size: 32px;
+    margin-left: 150px;
+    color: #E8C2AB;
+}
+
+.FAQh3{
+    text-align: left;
+    margin-top: 25px;
+    font-size: 24px;
+    margin-left: 150px;
+    color: #D98070;
+}
+
+
+#contact{
+    background-color: #D98070;
+}
+
+.contactush{
+    text-align: center;
+    font-size: 60px;
+}
+
+.contactusp{
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.fa-instagram{
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: #0D2B42;
+    margin-bottom: 15px;
+}
+
+.email{
+   margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    font-size: 28px;
+}
+
+#emailbtn{
+    margin-top: 10px;
+}
